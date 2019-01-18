@@ -11,9 +11,44 @@
 
 #track-results {
   color:black;
-  background-color: grey;
+  background-color:#b4ddff;
 }
 
 #track-results:hover {
   color: blue;
 }
+
+#cssResult{
+  display: none;
+}
+#cResult {
+  display: none;
+}
+
+#phpResult{
+  display: none;
+}
+
+#rubyResult{
+  display: none;
+}
+
+#javaResult{
+  display: none;
+}
+
+.panel {
+  background-color: white;
+}
+
+.well {
+  background-color: white;
+}
+
+.ansCol {
+background-color: #b4ddff;
+}
+/*
+#ansCol{
+  background-color: grey;
+} */
