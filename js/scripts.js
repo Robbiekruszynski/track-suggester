@@ -23,7 +23,7 @@ $(document).ready(function(){
     if(nameInput ==="") {
     alert("Please enter your name.")
 
-    }else if (q1Input === "Aesthetics of a website" && q2Input === "No" && q3Input === "No" && q4Input === "Web layout"){
+  }else if (q1Input === "Aesthetics of a website" && q2Input === "No" && q3Input === "No" && q4Input === "Web layout"){
     // $("#cssResult").show();
     alert("css test")
 
@@ -39,17 +39,17 @@ $(document).ready(function(){
     $("#rubyResult").show();
     alert("ruby test")
 
-    }else if(q2Input ==="Yes" && q3Input === "Yes" && q4Input === " App development"){
-    $("#javaResult").show();
+  }else if(q1Input ==="Both, equally" && q2Input ==="Yes" && q3Input === "Yes" && q4Input === " App development" || " Web development"){
+    // $("#javaResult").show();
     alert("java test")
 
-    }else if (q5Input === "Full time"){
-    $("#q5full").show;
-    alert("full")
-    
-    }else if(q5Input === "Part time"){
-    $("#q5part").show;
-    alert("part")
+    // }else if (q5Input === "Full time"){
+    // $("#q5full").show;
+    // alert("full")
+    //
+    // }else if(q5Input === "Part time"){
+    // $("#q5part").show;
+    // alert("part")
   }
     // }else () {
 
