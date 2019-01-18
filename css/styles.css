@@ -1,0 +1,6 @@
+.jumbotron {
+  background-image: url("../img/header.gif");
+  background: cover;
+  text-align: center;
+  color: black;
+}
