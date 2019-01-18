@@ -1,57 +1,38 @@
 css
-q1 = look
-q2 = no
-q3 = no
-q4 = web layout
+q1 = Aesthetics of a website
+
+q2 = No
+q3 = No
+q4 = Web layout
 
 c#
-q1 = function
-q2 = no
-q3 = yes
-q4 = web dev
+q1 = Overall functionality of a website
+q2 = No
+q3 = Yes
+q4 = Web development
 
 PHP
-q1 = function
+q1 = Overall functionality of a website
 q2 = NULL
-q3 = no
-q4 = web dev
+q3 = No
+q4 = Web development
 
 
 Ruby
 q1 = NULL
-q2 = yes
-q3 = no
-q4 =  app dev
+q2 = Yes
+q3 = No
+q4 = App development
 
 Java
 q1 = NULL
-q2 = yes
-q3 = yes
-q4 =  app dev
+q2 = Yes
+q3 = Yes
+q4 = App development
 
 part / full
-links to each
-
-q1 answers
-Aesthetics of a website
-Overall functionality of a website
-
-q2 answers
-Yes
-No
-
-q3 answers
-Yes
-
-q4 answers
-Web layout
-Web development
-App development
-
-q5 answers
 Full time
 Part time
-
 
 $(document).ready(function(){
 
@@ -62,14 +43,21 @@ $(document).ready(function(){
   var q2Input = $("q2").val();
   var q3Input = ("#q3").val();
   var q4Input = ("q4").val();
-  var q5Input = ("#q5").val();
+  var q5InputFull = ("#q5full").val();
+  var q5InputPart = ("#q5part")
 
   if(nameInput ==="") {
   alert("Please enter your name.")
 
-}else if ()
+} else if (q1Input ==="Aesthetics of a website" && q2Input === "No" && Input === "No" && q4Input "Web development")}
+$("#cssResult").show();
 
-  }
+} else if (q5InputFull) ==="Full time"){
+  $("#q5full").show;
+
+}else if (q1)
+
+
 event.preventDefault();
 
 
