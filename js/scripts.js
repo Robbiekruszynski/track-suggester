@@ -9,8 +9,6 @@ $(document).ready(function(){
     var q4Input = $("#q4").val();
     var q5Input = $("#q5").val();
     var q6Input = $("#q6").val();
-    // var q5InputFull = $("#q5full").val();
-    // var q5InputPart = $("#q5part").val();
 
     $(".name").text(nameInput);
     $(".q1").text(q1Input);
