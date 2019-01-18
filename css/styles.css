@@ -5,13 +5,17 @@
   color: black;
 }
 
+body {
+  background-color: #edf2fa;
+}
+
 .intro {
   text-align: center;
 }
 
 #track-results {
   color:black;
-  background-color:#b4ddff;
+  background-color:#ebf0fa;
 }
 
 #track-results:hover {
@@ -46,9 +50,9 @@
 }
 
 .ansCol {
-background-color: #b4ddff;
+background-color: #ebf0fa;
 }
-/*
-#ansCol{
-  background-color: grey;
-} */
+
+h3 {
+  text-align: center;
+}
