@@ -24,24 +24,29 @@ $(document).ready(function(){
     alert("Please enter your name.")
 
   }else if (q1Input === "Aesthetics of a website" && q2Input === "No" && q3Input === "No" && q4Input === "Web layout"){
-    // $("#cssResult").show();
-    alert("css test")
+    $("#user-result").show();
+    $("#cssResult").show();
+    $("#cssResult").siblings().hide();
 
     }else if(q1Input === "Overall functionality of a website" && q2Input === "No" && q3Input === "Yes" && q4Input === "Web development"){
+    $("#user-result").show();
     $("#cResult").show();
-    alert("c test")
+    $("#cResult").siblings().hide();
 
     }else if(q1Input === "Overall functionality of a website" && q2Input === "No" && q3Input === "No" && q4Input === "Web development"){
+    $("#user-result").show();
     $("#phpResult").show();
-    alert("php test")
+    $("#phpResult").siblings().hide();
 
     }else if(q1Input ==="Overall functionality of a website" && q2Input === "Yes" && q3Input === "No" && q4Input === "App development"){
+    $("#user-result").show();
     $("#rubyResult").show();
-    alert("ruby test")
+    $("rubyResult").siblings().hide();
 
   }else if(q1Input ==="Both, equally" && q2Input ==="Yes" && q3Input === "Yes" && q4Input === " App development" || " Web development"){
-    // $("#javaResult").show();
-    alert("java test")
+    $("#user-result").show();
+    $("#javaResult").show();
+    $("#javaResult").siblings().hide();
 
     // }else if (q5Input === "Full time"){
     // $("#q5full").show;
