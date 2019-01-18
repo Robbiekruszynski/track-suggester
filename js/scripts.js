@@ -30,4 +30,47 @@ q3 = yes
 q4 =  app dev
 
 part / full
-links to each 
+links to each
+
+q1 answers
+Aesthetics of a website
+Overall functionality of a website
+
+q2 answers
+Yes
+No
+
+q3 answers
+Yes
+
+q4 answers
+Web layout
+Web development
+App development
+
+q5 answers
+Full time
+Part time
+
+
+$(document).ready(function(){
+
+  $("#btn-holder").click(function(event) {
+
+  var nameInput = $("#name").val();
+  var q1Input = $("#q1").val();
+  var q2Input = $("q2").val();
+  var q3Input = ("#q3").val();
+  var q4Input = ("q4").val();
+  var q5Input = ("#q5").val();
+
+  if(nameInput ==="") {
+  alert("Please enter your name.")
+
+}else if ()
+
+  }
+event.preventDefault();
+
+
+});
