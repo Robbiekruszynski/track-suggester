@@ -18,6 +18,7 @@ make sure you're in your Desktop directory
 * clone or download https://github.com/Robbiekruszynski/track-suggester.git to your Desktop
 * Open the week-2-project folder and run index.html with your selected browser
 * Take the survey to few results
+* PLEASE refresh the page if taking multiple times.
 * For those whom wish to alter or view the code please use your preferred text editor  
 * Load up the index.html along with the styles.css and scripts.js
 * BE SURE to have BOOTSTRAP 3.3.7 and JQuery 3.3.1

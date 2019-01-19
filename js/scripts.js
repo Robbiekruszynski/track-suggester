@@ -22,7 +22,7 @@ $(document).ready(function(){
     if(nameInput ==="") {
     alert("Please enter your name.")
 
-  }else if (q1Input === "Aesthetics of a website" && q2Input === "No" || q2Input === "Yes" && q3Input === "No" || q3Input === "Yes" && q4Input === "Web layout" && q5Input === "Yes"){
+  }else if (q1Input === "Aesthetics of a website" && q2Input === "No" && q3Input === "No" || q3Input === "Yes" && q4Input === "Web layout" && q5Input === "Yes"){
     $("#user-result").show();
     $("#cssResult").show();
     $("#cssResult").siblings().hide();
@@ -37,12 +37,12 @@ $(document).ready(function(){
     $("#phpResult").show();
     $("#phpResult").siblings().hide();
 
-  }else if(q1Input === "Overall functionality of a website" && q2Input === "Yes" && q3Input === "No" && q4Input === "App development" && q5Input === "Yes" || q5Input === "No" || q5Input === "Yes"){
+  }else if(q1Input === "Overall functionality of a website" && q2Input === "Yes" && q3Input === "No" && q4Input === "App development" && q5Input === "Yes" || q5Input === "No"){
     $("#user-result").show();
     $("#rubyResult").show();
     $("rubyResult").siblings().hide();
 
-  }else if(q1Input === "Both, equally" || q1Input === "Overall functionality of a website" && q2Input === "Yes" && q3Input === "Yes" || q3Input === "No" && q4Input === "App development" || q4Input === "Web development" && q5Input === "No" || q5Input === "Yes"){
+  }else if(q1Input === "Both, equally" || q1Input === "Overall functionality of a website" && q2Input === "Yes" && q3Input === "Yes" || q3Input === "No" && q4Input === "App development" && q5Input === "No"){
     $("#user-result").show();
     $("#javaResult").show();
     $("#javaResult").siblings().hide();
