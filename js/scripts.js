@@ -47,6 +47,10 @@ $(document).ready(function(){
     $("#javaResult").show();
     $("#javaResult").siblings().hide();
 
+  }else {
+    $("#user-result").show();
+    $("#javaResult").show();
+    $("#javaResult").siblings().hide();
   }
   event.preventDefault();
 
