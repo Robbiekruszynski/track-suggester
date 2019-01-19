@@ -22,7 +22,7 @@ $(document).ready(function(){
     if(nameInput ==="") {
     alert("Please enter your name.")
 
-  }else if (q1Input === "Aesthetics of a website" || q1Input === "Both, equally" && q2Input === "No" || q2Input === "Yes" && q3Input === "No" || q3Input === "Yes" && q4Input === "Web layout" && q5Input === "Yes"){
+  }else if (q1Input === "Aesthetics of a website" && q2Input === "No" || q2Input === "Yes" && q3Input === "No" || q3Input === "Yes" && q4Input === "Web layout" && q5Input === "Yes"){
     $("#user-result").show();
     $("#cssResult").show();
     $("#cssResult").siblings().hide();
@@ -32,7 +32,7 @@ $(document).ready(function(){
     $("#cResult").show();
     $("#cResult").siblings().hide();
 
-  }else if(q1Input === "Overall functionality of a website" || q1Input === "Both, equally" && q2Input === "No" && q3Input === "No" || q3Input === "Yes" && q4Input === "Web development" && q5Input === "No"){
+  }else if(q1Input === "Overall functionality of a website" && q2Input === "No" && q3Input === "No" || q3Input === "Yes" && q4Input === "Web development" && q5Input === "No"){
     $("#user-result").show();
     $("#phpResult").show();
     $("#phpResult").siblings().hide();
@@ -49,5 +49,6 @@ $(document).ready(function(){
 
   }
   event.preventDefault();
+
   });
 });
